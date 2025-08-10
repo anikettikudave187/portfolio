@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <div id="header" class="header-text">
+        <div class="topNav">
+            <nav>
+                <ul id="sideMenu">
+                    <li><a class="active" href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+        </div>
+
+        <div class="row">  
+            <div class="col1">
+            </div>
+                    
+            <div class="col2">
+                <h1 class="sub-title">Aniket Tikudave</h1>
+                <p class="info-about">Final Year B-Tech Student,<br>Specializing in E&Tc <br>Enrolled in Java Full-stack Development course</p>
+            </div>
+        </div>
+    </div>
+    <!----------------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="images/new img.jpeg">
+                </div>
+                <div class="col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="info-about">Enthusiastic and detail-oriented engineering student with a passion for building scalable software solutions and solving real-world 
+problems through programming. Adept at backend development, API integration, and applying core computer science principles to 
+build clean, maintainable applications.</p>
+                    
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Java programming for DSA and development</li>
+                            <li><span>Spring-Boot</span><br>Springboot framework for backend development with java.</li>
+                            <li><span>SQL</span><br>Structured Query Language for database operations.</li>
+                            <li><span>DSA</span><br>Data Structure and Algorithms.</li>
+                            <li><span>Microservices</span><br>Microservices architecture for efficient system.</li>
+                            <li><span>HTML</span><br>HTML for creating layouts of web pages.</li>
+                            <li><span>JavaScript</span><br>JavaScript to add responsiveness to web pages.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B-Tech in E&Tc at AGCE Satara with 7 CGPA.</li>
+                            <li><span>2021</span><br>HSC at B.D.College Patan with 84% .</li>
+                            <li><span>2019</span><br>SSC at New English School Belawade with 84.40% .</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2025</span><br>Cyber-Security internship through Edunet-Foundation.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------- projects ---------->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/nasalogo.jpg">
+                    <div class="layer">
+                        <h3>NASA Picture Of The Day</h3>
+                        <p>• Developed a responsive web app using HTML, CSS, JavaScript <br>
+                        • Fetched daily images and metadata from NASA public API</p>
+                        <a href="https://anikettikudave187.github.io/NASA-picture-of-the-day/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/github.jpg">
+                    <div class="layer">
+                        <h3>Ticket Booking Backend System</h3>
+                        <p>• Built backend system for ticket booking using Spring Boot and MySQL<br>
+                        • Developed multiple RESTful APIs for services</p>
+                        <a href="https://github.com/anikettikudave187/Book-My-Show-Backend" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/github.jpg">
+                    <div class="layer">
+                        <h3>Library Management System</h3>
+                        <p>• Designed backend system with Spring Boot and MySQL<br>
+                        • Implemented full CRUD operations and clean architecture</p>
+                        <a href="https://github.com/anikettikudave187/student-library-management-system" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/tic.png">
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe Game</h3>
+                        <p>• Designed basic tic tac toe game for two players<br>
+                        • Applied HTML,CSS,JS to create UI</p>
+                        <a href="file:///C:/Users/Aniket/OneDrive/Desktop/weekend%20project/ticTacToe/index.html" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/anikettikudave187" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+<!--------------------contact me-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="leftCol">
+                <h1 class="sub-title">Contact Me</h1>
+                <P><i class="fa-solid fa-paper-plane"></i> anikettikudave187@gmail.com</P>
+                <p><i class="fa-solid fa-phone"></i> +91 7410194673</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/anikettikudave187/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/anikettikudave187" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/anikettikudave187/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="images/Resume.pdf" class="btn btn2" target="_blank">See Resume</a>
+            </div>
+            <div class="rightCol">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Enter Your Message"></textarea>
+                    <button type="submit" class="btn btn2" id="submit">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Aniket. Made with <i class="fa-solid fa-heart"></i> by Aniket Tikudave</p>
+    </div>
+</div>
+
+
+
+
+    <script>
+        var tabsLinks=document.getElementsByClassName('tab-links');
+        var tabContents=document.getElementsByClassName('tab-content');
+
+        function openTab(tabName){
+            for(tabLink of tabsLinks){
+                tabLink.classList.remove('active-link');
+            }
+            for(tabContent of tabContents ){
+                tabContent.classList.remove('active-tab');
+            }
+
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        var sideMenu=document.getElementById('sideMenu');
+        function openMenu(){
+            sideMenu.style.right='0';
+        }
+        function closeMenu(){
+            sideMenu.style.right='-200px';
+        }
+    </script>
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyitLYcKIVDRUshKfDW79VtPsI-y112d-h_LCsKZ1EOJyr1jEOGFMzNgqAY7ZNjY2Ja4A/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg=document.getElementById('msg');
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully !"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },2500)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+</body>
+</html>
